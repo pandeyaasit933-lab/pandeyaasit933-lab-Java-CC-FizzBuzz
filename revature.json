@@ -1,0 +1,40 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/FizzBuzzTest.java",
+      "testCases": [
+        {
+          "methodName": "FizzBuzzTest1",
+          "label": "Test for divisibility by 5 (Buzz)",
+          "description": "Verifies that the method returns 'Buzz' when the input is divisible by 5 but not 3 (e.g., 5)."
+        },
+        {
+          "methodName": "FizzBuzzTest2",
+          "label": "Test for divisibility by 3 (Fizz) - first case",
+          "description": "Verifies that the method returns 'Fizz' when the input is divisible by 3 but not 5 (e.g., 9)."
+        },
+        {
+          "methodName": "FizzBuzzTest3",
+          "label": "Test for divisibility by 3 (Fizz) - second case",
+          "description": "Verifies that the method returns 'Fizz' when the input is divisible by 3 but not 5 (e.g., 27)."
+        },
+        {
+          "methodName": "FizzBuzzTest4",
+          "label": "Test for divisibility by 3 and 5 (FizzBuzz)",
+          "description": "Verifies that the method returns 'FizzBuzz' when the input is divisible by both 3 and 5 (e.g., 30)."
+        },
+        {
+          "methodName": "FizzBuzzTest5",
+          "label": "Test for non-divisible number (Empty String) - first case",
+          "description": "Verifies that the method returns an empty string when the input is divisible by neither 3 nor 5 (e.g., 28)."
+        },
+        {
+          "methodName": "FizzBuzzTest6",
+          "label": "Test for non-divisible number (Empty String) - second case",
+          "description": "Verifies that the method returns an empty string when the input is divisible by neither 3 nor 5 (e.g., 2)."
+        }
+      ]
+    }
+  ]
+}
